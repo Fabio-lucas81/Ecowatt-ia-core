@@ -1,41 +1,56 @@
-# Prerequisites
-*.d
+# Ambiente virtual
+venv/
+.env/
+.envrc
+*.env
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+# Arquivos do Python
+__pycache__/
+*.py[cod]
 *.so
-*.dylib
-*.dll
+*.pyd
+*.pyo
 
-# Fortran module files
-*.mod
-*.smod
+# Notebooks checkpoints
+.ipynb_checkpoints/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Dados (não versionar arquivos sensíveis ou grandes)
+data/
+datasets/
+*.csv
+*.xlsx
+*.json
+*.zip
+*.tar.gz
 
-# Executables
-*.exe
-*.out
-*.app
+# Modelos treinados
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+models/
 
-# debug information files
-*.dwo
+# Logs
+*.log
+logs/
+
+# Arquivos temporários de IDEs
+*.swp
+*.bak
+*.tmp
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+*.nbconvert.ipynb
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de build (caso compile algo)
+build/
+dist/
+*.egg-info/
