@@ -18,6 +18,8 @@ Sistema base de facturação e ERP preparado para requisitos fiscais de Angola (
   /components
   /views         # Exemplo de formulário de factura
   /services      # Cliente para API
+/docs
+  TROUBLESHOOTING.md
 ```
 
 ## Requisitos funcionais implementados
@@ -39,6 +41,8 @@ Sistema base de facturação e ERP preparado para requisitos fiscais de Angola (
 
 ## Executar backend
 
+> ⚠️ Execute estes comandos no **terminal do sistema** (bash/zsh/PowerShell), não no prompt `>` do Node REPL.
+
 ```bash
 cd backend
 npm install
@@ -51,6 +55,10 @@ npm start
 cd backend
 npm test
 ```
+
+## Troubleshooting
+
+- Se aparecer `Uncaught SyntaxError` ao correr `mkdir` ou `cd`, veja: [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md).
 
 ## Observações para integração AGT
 
